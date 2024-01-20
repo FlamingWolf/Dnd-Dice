@@ -1,21 +1,26 @@
 html{
     background-color: #4e4d4d;
-}
-h1{
-    text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ddd;
 }
-p{
+header h1{
     text-align: center;
     color: #ddd;
 }
+
 nav{
     background-color: #333;
     overflow: hidden;
 }
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+}
+nav li{
+    display: inline-block;
+}
 
-nav a{
+nav li a{
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -35,33 +40,27 @@ nav a.active {
     color: white;
 }
 
-.center{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+main{
+    clear: left;
 }
-.b1{
-    float: left;
+main h1{
     text-align: center;
+    color: #ddd;
+}
+
+main p{
+    text-align: center;
+    color: #ddd;
+}
+
+footer{
+    clear: left;
     background-color: #333;
-    padding: 15px 23px;
-    color: #ddd;
-    border: 0px;
+    padding: 2%;
+    font-size: 1.25em;
 }
-.b1:hover{
-    background-color: #ddd;
-    color: black;
-    
-}
-.result{
-    font-size: 50px;
-    color: #ddd;
-    width: 1008px;
+
+footer p{
     text-align: center;
-    height: 70px;
-    vertical-align: middle;
-    display:table-cell;
+    color: #ddd;
 }
